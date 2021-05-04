@@ -14,7 +14,7 @@ body {
   margin: 0;
   display: grid;
   grid-template-rows: 4fr 1fr;
-  background: #EA80FC;
+  background: #626262;
 
   img {
     position: relative;
@@ -29,6 +29,18 @@ body {
     margin: 0 auto;
     color: #3d5afe;
     font-family: "Share Tech Mono", monospace;
+  }
+  .your-class {
+    width: 500px;
+    height: 300px;
+    background: #EA80FC;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .your-class div {
+    width: 100%;
+    height: 100%;
+    background: #3d5afe;
   }
 }
 
